@@ -9,6 +9,8 @@ push = False
 if len(sys.argv) == 3: push = True;
 
 
+subprocess.run(["brew", "update"])
+
 subprocess.run(["git", "add", "."])
 git_status = subprocess.run(["git", "status"])
 git_commit = subprocess.run(["git", "commit", "-m", message])
