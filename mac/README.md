@@ -14,4 +14,5 @@
 - [spectacle](https://www.spectacleapp.com/)
 - [alfred](https://www.alfredapp.com/)
 - [hyperswitch](https://bahoom.com/hyperswitch)
-  
+- htop
+- 
