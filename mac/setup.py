@@ -17,4 +17,4 @@ git_commit = subprocess.run(["git", "commit", "-m", message])
 
 if push: git_push = subprocess.run(["git", "push"])
 
-print(git_status.git_push)
+print(git_push.returncode)
